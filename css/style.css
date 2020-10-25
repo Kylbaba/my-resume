@@ -212,7 +212,7 @@ body {
     color: var(--txt-c-light);
     background: var(--c-dark);
     border: none;
-    margin-bottom: 0px 0px 15px 0px;
+    margin-bottom: 0 0 15px 0;
 
 }
 
