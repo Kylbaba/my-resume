@@ -227,8 +227,118 @@
                 <button class="personal-project-btn eccent-btn">More details —</button>
             </div>
         </div>
+
+        <section class="callback-form">
+            <div class="container">
+                <form action="" class="callback-form-container">
+                    <h3 class="callback-form-title">/Are you minding [a project?] </h3>
+                    <p class="callback-descr">Leave a request to discuss the task and technical requirements </p>
+                    <input type="text" class="callback-form-input" placeholder="Name">
+                    <input type="email" class="callback-form-input" placeholder="Email">
+                    <input type="tel" class="callback-form-input" placeholder="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    <input type="submit" class="callback-form-submit eccent-btn" value="Discuss the project —">
+                </form>
+            </div>
+        </section>
+        <section class="calculator">
+            <div class="container">
+                <h3 class="calculator-title section-title">
+                    Calculate_ the cost of a future project
+                </h3>
+                <p class="calculator-descr">
+                    <span>This is an</span>
+                    <span class="calculator-descr-accent">approximate</span>
+                    <span>calculation.</span>
+                </p>
+                <img src="img/calculator.svg" alt="calculator" class="calculator-icon" />
+                <p class="calculator-text">
+                    / The final cost depends on the technical requirements, terms, specifics
+                    of your project.
+                </p>
+
+                <form action="" class="calculator-form">
+                    <div class="calculator-form-input">
+                        <label for="calculator-form-website-type" class="calculator-form-title">What should be done:</label>
+                        <select name="website-type" id="calculator-form-website-type" class="calculator-form-select">
+                            <option value="landing-page" selected>Landing page</option>
+                            <option value="website">Website</option>
+                            <option value="cms">CMS</option>
+                            <option value="portal">Portal</option>
+                            <option value="e-shop">E-shop</option>
+                        </select>
+                    </div>
+
+
+                    <div class="calculator-form-input">
+                        <label for="calculator-form-technologies" class="calculator-form-title">Choose preferred technologies</label>
+                        <select name="technologies" id="calculator-form-technologies" class="calculator-form-select">
+                            <option value="css">CSS</option>
+                            <option value="html">HTML</option>
+                            <option value="javascript">Javascript</option>
+                            <option value="react">React</option>
+                            <option value="angular">Angular</option>
+                            <option value="php">PHP</option>
+                            <option value="vue" selected>Vue</option>
+                        </select>
+                    </div>
+
+                    <div class="calculator-form-input">
+                        <label for="" class="calculator-form-title">Personal account and shopping cart: </label>
+
+                        <div class="calculator-form-input-radio-container">
+                            <input type="radio" name="cart" id="calculator-form-input-cart-yes" class="calculator-form-input">
+                            <label class="input-label" for="calculator-form-input-cart-yes">Yes</label>
+
+                            <input type="radio" name="cart" id="calculator-form-input-cart-no" class="calculator-form-input">
+                            <label for="calculator-form-input-cart-no">No</label></div>
+                    </div>
+
+
+                    <div class="calculator-form-input">
+                        <label for="" class="calculator-form-title">Requests reception on your email: </label>
+
+                        <div class="calculator-form-input-radio-container">
+                            <input type="radio" name="reception" id="calculator-form-input-reception-yes" class="calculator-form-field">
+                            <label class="input-label" for="calculator-form-input-reception-yes">Yes</label>
+
+                            <input type="radio" name="reception" id="calculator-form-input-reception-no" class="calculator-form-field">
+                            <label for="calculator-form-input-reception-no">No</label></div>
+                    </div>
+                    <div class="calculator-form-input">
+                        <p class="calculator-form-total">Cost:</p>
+                        <p class="calculator-form-total-cost">300$</p>
+                    </div>
+                    <input type="submit" class="eccent-btn" value="Find out the cost —">
+                </form>
+            </div>
+        </section>
     </section>
-
-</body>
-
-</html>
+    
+    <footer class="footer">
+   
+   <div class="footer-container">
+        <h6 class="footer-name">Tatiana Petrenko</h6>
+        <p class="footer-proffesion">Frontend Developer</p>
+        <a href="tel:+380662036843" class="footer-tel">+38 (066) 203 68 43</a>
+        <a href="petrenkotanya18@gmail.com" class="footer-gmail">petrenkotanya18@gmail.com</a>
+    
+    <div class="social-links">
+          <a href="https://github.com/Kylbaba" class="social-links-item-link">
+            <i class="fab fa-github-square social-links-item"></i>
+          </a>
+          <a href="https://www.facebook.com/tanya.petrenko.3914" class="social-links-item-link">
+            <i class="fab fa-facebook-square social-links-item"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/tanya-petrenko-4bbb42116/" class="social-links-item-link">
+            <i class="fab fa-linkedin social-links-item"></i>
+          </a>
+          <a href="https://www.instagram.com/___kylbaba___/?hl=ru" class="social-links-item-link">
+            <i class="fab fa-instagram social-links-item"></i>
+          </a>
+        </div>
+        </div>  
+</footer>
+    
+    
+    
+</body></html>
