@@ -8,7 +8,9 @@
 
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/choices.min.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -259,9 +261,9 @@
                 <form action="" class="calculator-form">
                     <div class="calculator-form-input">
                         <label for="calculator-form-website-type" class="calculator-form-title">What should be done:</label>
-                        <select name="website-type" id="calculator-form-website-type" class="calculator-form-select">
-                            <option value="landing-page" selected>Landing page</option>
-                            <option value="website">Website</option>
+                        <select name="website-type" id="calculator-form-website-type" class="calculator-form-select" multiple>
+                            <option value="landing-page" >Landing page</option>
+                            <option value="website" selected>Website</option>
                             <option value="cms">CMS</option>
                             <option value="portal">Portal</option>
                             <option value="e-shop">E-shop</option>
@@ -271,14 +273,14 @@
 
                     <div class="calculator-form-input">
                         <label for="calculator-form-technologies" class="calculator-form-title">Choose preferred technologies</label>
-                        <select name="technologies" id="calculator-form-technologies" class="calculator-form-select">
-                            <option value="css">CSS</option>
-                            <option value="html">HTML</option>
-                            <option value="javascript">Javascript</option>
+                        <select name="technologies" id="calculator-form-technologies" class="calculator-form-select" multiple>
+                            <option selected value="css">CSS</option>
+                            <option selected value="html">HTML</option>
+                            <option selected value="javascript">Javascript</option>
                             <option value="react">React</option>
                             <option value="angular">Angular</option>
                             <option value="php">PHP</option>
-                            <option value="vue" selected>Vue</option>
+                            <option value="vue">Vue</option>
                         </select>
                     </div>
 
@@ -313,32 +315,34 @@
             </div>
         </section>
     </section>
-    
+
     <footer class="footer">
-   
-   <div class="footer-container">
-        <h6 class="footer-name">Tatiana Petrenko</h6>
-        <p class="footer-proffesion">Frontend Developer</p>
-        <a href="tel:+380662036843" class="footer-tel">+38 (066) 203 68 43</a>
-        <a href="petrenkotanya18@gmail.com" class="footer-gmail">petrenkotanya18@gmail.com</a>
-    
-    <div class="social-links">
-          <a href="https://github.com/Kylbaba" class="social-links-item-link">
-            <i class="fab fa-github-square social-links-item"></i>
-          </a>
-          <a href="https://www.facebook.com/tanya.petrenko.3914" class="social-links-item-link">
-            <i class="fab fa-facebook-square social-links-item"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/tanya-petrenko-4bbb42116/" class="social-links-item-link">
-            <i class="fab fa-linkedin social-links-item"></i>
-          </a>
-          <a href="https://www.instagram.com/___kylbaba___/?hl=ru" class="social-links-item-link">
-            <i class="fab fa-instagram social-links-item"></i>
-          </a>
+
+        <div class="footer-container">
+            <h6 class="footer-name">Tatiana Petrenko</h6>
+            <p class="footer-proffesion">Frontend Developer</p>
+            <a href="tel:+380662036843" class="footer-tel">+38 (066) 203 68 43</a>
+            <a href="petrenkotanya18@gmail.com" class="footer-gmail">petrenkotanya18@gmail.com</a>
+
+            <div class="social-links">
+                <a href="https://github.com/Kylbaba" class="social-links-item-link">
+                    <i class="fab fa-github-square social-links-item"></i>
+                </a>
+                <a href="https://www.facebook.com/tanya.petrenko.3914" class="social-links-item-link">
+                    <i class="fab fa-facebook-square social-links-item"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/tanya-petrenko-4bbb42116/" class="social-links-item-link">
+                    <i class="fab fa-linkedin social-links-item"></i>
+                </a>
+                <a href="https://www.instagram.com/___kylbaba___/?hl=ru" class="social-links-item-link">
+                    <i class="fab fa-instagram social-links-item"></i>
+                </a>
+            </div>
         </div>
-        </div>  
-</footer>
-    
-    
-    
+    </footer>
+
+
+
+    <script src="js/choices.min.js"> </script>
+    <script src="js/calculator.js"> </script>
 </body></html>
