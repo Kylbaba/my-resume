@@ -69,7 +69,6 @@ function getTechnologiesSum(technologiesArr) {
     return totalSum;
 }
 
-
 function renderSum(sum) {
     const costElement = document.querySelector(".calculator-form-total-cost");
 
